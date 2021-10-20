@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <header class="p-10">
-        <a asp-controller="Customer" asp-action="index" >Customer API</a>
+    <header class="flex p-4 justify-end">
+        <div class="m-4">
+            <a asp-controller="Customer" asp-action="index" >API</a>
+        </div>
+        <div class="m-4">
+            <a href='/swagger'>Swagger</a>
+        </div>
     </header>
     <div class="container mx-auto">
         <main role="main" >

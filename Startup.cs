@@ -29,7 +29,7 @@ namespace webmvc
                 options.UseSqlServer(
                    Configuration["Data:ConnectionStrings:DefaultConnection"]));
 
-
+            services.AddSwaggerGen();
             services.AddControllersWithViews();
         }
 
@@ -48,6 +48,12 @@ namespace webmvc
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.)
+            app.UseSwaggerUI();
 
             app.UseRouting();
 
