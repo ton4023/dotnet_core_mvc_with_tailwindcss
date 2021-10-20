@@ -15639,8 +15639,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/ton/pilab studio/webmvc/Views/Home/Customer.cshtml",
-      "TargetPath": "Views\\Home\\Customer.cshtml",
+      "FilePath": "/home/ton/pilab studio/webmvc/Views/Customer/Index.cshtml",
+      "TargetPath": "Views\\Customer\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

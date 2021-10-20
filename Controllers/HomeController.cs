@@ -23,10 +23,6 @@ namespace webmvc.Controllers
             return View();
         }
 
-        public IActionResult Customer(){
-            return View();
-        }
-
         public IActionResult Privacy()
         {
             return View();
