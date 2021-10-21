@@ -27,7 +27,7 @@ namespace webmvc
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                   Configuration["Data:ConnectionStrings:DefaultConnection"]));
+                   Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddSwaggerGen();
             services.AddControllersWithViews();

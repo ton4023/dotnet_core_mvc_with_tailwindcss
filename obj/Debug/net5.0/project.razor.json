@@ -15639,11 +15639,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/ton/pilab studio/webmvc/Views/Customer/Index.cshtml",
-      "TargetPath": "Views\\Customer\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/ton/pilab studio/webmvc/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

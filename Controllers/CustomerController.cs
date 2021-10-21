@@ -28,5 +28,12 @@ namespace Microsoft.EntityFrameworkCore
             return Ok(customer);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Create(CustomerEntity customer)
+        {
+            _context.CustomerEntity.Add(customer);
+            await _context.SaveChangesAsync();
+            return Ok(customer.ID);
+        }
     }
 }
